@@ -3,7 +3,7 @@ class API {
 
     async obtenerdatos(data) {
         // url de la API
-        const apiblog = "http://jsonplaceholder.typicode.com"
+        const apiblog = "https://jsonplaceholder.typicode.com"
         // Obtener los datos de la API
         const datos = await fetch(`${apiblog}/${data}`)
         // convertir datos a JSON
